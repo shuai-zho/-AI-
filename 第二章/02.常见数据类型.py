@@ -75,9 +75,9 @@ msg1="人生苦短"
 msg2="我用Python"
 print("龟叔说:" + msg1 + "," + msg2)
 #案例:--->str(int数字I--->
-name ="涛哥"
-age = 18
-pro="软件工程"
+name ="钟帅"
+age = 26
+pro="计算机应用"
 hobby = "Python、 Java"
 print("大家好，我是" + name + "，今年" + str(age) + "岁，学习的专业是" + pro + "，爱好" + hobby)
 
@@ -87,3 +87,15 @@ print("大家好，我是" + name + "，今年" + str(age) + "岁，学习的专
 根据自己的实际情况，输出个人的详细信息，具体结构如下:
 "大家好，我是钟帅，今年26岁，学习的专业是计算机应用，爱好Python、AI，希望三年后能在外企大厂工作，成为一名优秀的Python开发工程师！"
 '''
+
+# 字符串格式化
+# 字符串格式化的方式有三种:
+# 1. %s 占位符    
+# 2. f-string (格式化字符串字面量)  ---> Python3.6之后才支持
+# 3. str.format() 方法
+user_name = "钟帅"
+user_age = 26
+user_pro = "计算机应用"
+user_hobby = "Python、AI"
+user_hope = "Python开发工程师！"
+print(f'大家好，我是{user_name}，今年{user_age}岁，学习的专业是{user_pro}，爱好{user_hobby}，希望三年后能在外企大厂工作，成为一名优秀的{user_hope}')  
