@@ -26,14 +26,3 @@ user_money = float(input("请输入您要取款的金额: "))
 user_balance = 10000 - user_money
 print(f'您本次取款金额为:{user_money}元，取款完毕后，您的银行卡余额为:{user_balance}元。')
 
-'''
-练习
-实现计算器功能
-需求:根据用户输入的两个数字，计算两个数之和，并将其输出到控制台。
-'''
-
-num1 = float(input("请输入第一个数字: "))
-num2 = float(input("请输入第二个数字: "))
-sum_result = num1 + num2
-print(f'两个数的和为: {sum_result}')
-
